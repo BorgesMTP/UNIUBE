@@ -1,0 +1,11 @@
+# Exercício 03
+print('+-------------------------------------------+')
+print('| Sistema de apoio ao vendedor Casas Gerais |')
+print('+-------------------------------------------+')
+total = float(input('Insira o valor total da venda: R$'))
+print('+-------------------------------------------+')
+print(f'O total da venda com desconto é: R${total*0.9:.2f}')
+print(f'Em 3x sem juros de: R${total/3:.2f}')
+print(f'Comissão à vista: R${total*0.9*0.05:.2f}')
+print(f'Comissão à prazo: R${total*0.05:.2f}')
+print('+-------------------------------------------+')
